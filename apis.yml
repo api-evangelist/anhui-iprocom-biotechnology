@@ -1,23 +1,53 @@
 aid: anhui-iprocom-biotechnology
+
 name: Anhui Iprocom Biotechnology
-description: 'Anhui Iprocom Biotechnology is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Anhui Iprocom Biotechnology is a biotechnology company based in Anhui, China. It focuses on research and development of biopharmaceutical products and related technologies. The company is listed in secondary-market harvests and is being profiled for API Evangelist documentation. Further public information about its services, products, and API offerings is limited at this time. No additional public website or detailed API documentation could be located through standard web searches, indicating a low public exposure of its developer resources.'
+
 url: https://raw.githubusercontent.com/api-evangelist/anhui-iprocom-biotechnology/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-24'
+
 modified: '2026-09-24'
+
 tags:
 - Company
-apis: []
+- Biotechnology
+- China
+- Research
+- Biopharma
+- Healthcare
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Vendors
+  url: vendors/anhui-iprocom-biotechnology-vendors.yml
 - type: Website
   url: https://www.nasdaqprivatemarket.com/
+- type: Hosts
+  url: hosts/anhui-iprocom-biotechnology-hosts.yml
+- type: DomainSecurity
+  url: security/anhui-iprocom-biotechnology-domain-security.yml
+
+
+apis: []
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 3
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
